@@ -1,5 +1,10 @@
-/* *{
-
-    margin-top: 5px;
-
-} */
+.carousel{
+    width: 98%;
+} 
+.img-size{
+    width: 100%;
+} 
+.content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
