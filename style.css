@@ -11,5 +11,10 @@
 .deals{
     margin-top: 35rem;
 }
-
-  
+.team-img{
+    width: 25px;
+    width: 25px;
+}
+.team-bg-img{
+    background-image: url(/images/team.png);
+}
