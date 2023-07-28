@@ -28,6 +28,9 @@
   .why-grid-3 {
     grid-area: why-grid-3;
   }
+  .shared-border{
+    border-bottom: 2px solid black;
+  }
 @media screen and (min-width:319px) and (max-width:425px){
     .why-grid{
         display:    grid;
