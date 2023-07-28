@@ -15,6 +15,28 @@
     width: 25px;
     width: 25px;
 }
-.team-bg-img{
-    background-image: url(/images/team.png);
+.why-img{
+    width: 20px;
+    height:20px;
+}
+.why-grid-1 {
+    grid-area: why-grid-1;
+  }
+  .why-grid-2 {
+    grid-area: why-grid-2;
+  }
+  .why-grid-3 {
+    grid-area: why-grid-3;
+  }
+@media screen and (min-width:319px) and (max-width:425px){
+    .why-grid{
+        display:    grid;
+        grid-template-areas: 
+        'why-grid-2'
+        'why-grid-1'
+        'why-grid-3';
+        gap: 5px;
+    }
+    
+    
 }
